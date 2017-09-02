@@ -1,0 +1,72 @@
+h1 {
+  color: #0c0335;
+  font-size: 30px;
+  position: center;
+}
+
+h2 {
+  color: #0c0335;
+  font-size: 25px;
+}
+
+h3  {
+  color: #9ab6ea;
+  font-size: 20px;
+}
+
+ol{
+  color: white;
+}
+
+ol li {
+  color: white;
+  font-size: 17px;
+}
+
+#frst-p {
+  color: white;
+  font-size: 18px;
+}
+
+#scnd-p {
+  color: white;
+  font-size: 18px;
+}
+
+.beginning {
+  color: #9ab6ea;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#login-form {
+
+}
+
+body { 
+  padding: 30px;
+  background: #f2d08a;
+}
+
+#background-image {
+  background: url(images/cristina-gottardi-259243.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 50px 30px;
+}
+
+#maincol {
+  float: left;
+  width: 75%;
+}
+
+#rightcol {
+  float: right;
+  width: 25%;
+}
