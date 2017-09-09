@@ -1,6 +1,14 @@
-console.log('this is working!');
+$(document).ready(function() {
+  console.log('this is working!');
 
-// <script>
-//   Function myFunction(){
-//   document.getElementById('login-form') .innerHTML =
-// }
+  $("#click-test").click(function() {
+    alert( "Handler for .click() called." );
+    console.log('Clicked');
+  });
+
+  $("#login").click(function() {
+    alert("Remember me!");
+  });
+
+  
+});
