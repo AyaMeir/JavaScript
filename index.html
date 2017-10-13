@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="styles.css">
@@ -9,6 +10,16 @@
 <body>
   <!-- Background Image Container -->
   <div id="background-image" class="group">
+    <div id="top" class="group">
+      <nav id="main-menu">
+        <ul>
+          <li><a href="#" title="Home">Home</a></li>
+          <li><a href="#" title="About">About</a></li>
+          <li><a href="#" title="News">News</a></li>
+          <li><a href="#" title="Contact">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
     <!-- Maincol Container -->
     <div id="maincol">
       <h1>Global Warming</h1>
@@ -17,10 +28,10 @@
       <p id="frst-p">
         <span class="beginning"> <strong>The planet is warming</strong></span>, from North Pole to South Pole. Since 1906, the global average surface temperature has increased between 1.1 and 1.6 degrees Fahrenheit (0.6 to 0.9 degrees Celsius)–even more in sensitive polar regions. And the effects of rising temperatures aren’t waiting for some far-flung future–signs of the effects of global warming are appearing right now. The heat is melting glaciers and sea ice, shifting precipitation patterns, and setting animals on the move.
       </p>
-      <img src="images/anders-jilden-24222.jpg" alt="Snow View" style= "width:500px;height:300px;" float: center;>
+      <img src="images/anders-jilden-24222.jpg" alt="Snow View" style="width:500px;height:300px;float:center;" >
 
       <h3>Facts About Climate Change:</h3>
-      <ol list-style-type: "1.">
+      <ol>
         <li>Global warming is the increase of Earth's average surface temperature.</li>
         <li>Global warming is happening largely due to an over-emittance of these gases and fossil fuels (natural oil, gasoline, coal).</li>
         <li>With the start of industry in the 1700's, humans began emitting more fossil fuels from coal, oil, and gas to run our cars, trucks, and factories.</li>
@@ -34,9 +45,13 @@
        <strong>What is the Paris Agreement?</strong> In 2015, almost every country in the world -- 195 countries in total -- agreed to the Paris Agreement, the first global pact to combat climate change by setting goals to reduce their country’s greenhouse gas emissions. Under the Obama Administration, the US pledged to cut its carbon pollution by 26-28% by 2025.
      </p>
    </div>
-
+    <h4>The Impact of Climate Change on Natural Disasters</h4>
+    <p>
+     Climate change may not be responsible for the recent skyrocketing cost of natural disasters, but it is very likely that it will impact future catastrophes. Climate models provide a glimpse of the future, and while they do not agree on all of the details, most models predict a few general trends. First, according to the Intergovernmental Panel on Climate Change, an increase of greenhouse gases in the atmosphere will probably boost temperatures over most land surfaces, though the exact change will vary regionally. More uncertain—but possible—outcomes of an increase in global temperatures include increased risk of drought and increased intensity of storms, including tropical cyclones with higher wind speeds, a wetter Asian monsoon, and, possibly, more intense mid-latitude storms.
+</p>
    <!-- Rightcol Container -->
    <div id="rightcol">
+    <div id="temp"></div>
      <form id="login-form">
       User Name: <br>
       <input type="text" name="username"> <br>
@@ -48,8 +63,7 @@
       <p id="click-test">Stuff appears when you click me</p>
     </div>
   </div>
-
+<p id="click-here">This text disappears when you click here</p>
 </div>
-
 </body>
 </html>
