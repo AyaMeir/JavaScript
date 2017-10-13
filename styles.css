@@ -15,21 +15,21 @@ h3  {
 }
 
 ol{
-  color: white;
+  color: black;
 }
 
 ol li {
-  color: white;
+  color: black;
   font-size: 17px;
 }
 
 #frst-p {
-  color: white;
+  color: black;
   font-size: 18px;
 }
 
 #scnd-p {
-  color: white;
+  color: black;
   font-size: 18px;
 }
 
@@ -49,18 +49,16 @@ ol li {
 
 body { 
   padding: 30px;
-  background: #f2d08a;
+  background: black;
 }
-
 #background-image {
-  background: url(images/cristina-gottardi-259243.jpg) no-repeat center center fixed;
+  background: url(images/pexels-photo-242236.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding: 50px 30px;
 }
-
 #maincol {
   float: left;
   width: 75%;
@@ -69,4 +67,18 @@ body {
 #rightcol {
   float: right;
   width: 25%;
+}
+
+/* Main Menu */
+#main-menu {
+
+}
+
+#main-menu ul li {
+  float: left;
+  list-style: none;
+}
+
+#main-menu ul li a {
+  padding: 10px;
 }
