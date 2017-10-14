@@ -1,3 +1,12 @@
+/*html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  background: url(images/pexels-photo-242236.jpeg) center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
 h1 {
   color: #0c0335;
   font-size: 30px;
@@ -10,10 +19,39 @@ h2 {
 }
 
 h3  {
-  color: #9ab6ea;
+  color: black;
+  font-size: 20px;
+}
+h4 {
+  color: black;
   font-size: 20px;
 }
 
+ul { list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+#main-menu li {
+  float: left;
+}
+li a{
+  font-stretch: 18px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20x 24px;
+  text-decoration: none;
+}
+li a.active{
+background-color: orange;
+color: white;
+}
+li a:hover{
+  background-color: #111;
+  color: white;
+}
 ol{
   color: black;
 }
@@ -34,7 +72,7 @@ ol li {
 }
 
 .beginning {
-  color: #9ab6ea;
+  color: black;
 }
 
 .group:after {
@@ -49,7 +87,7 @@ ol li {
 
 body { 
   padding: 30px;
-  background: black;
+  /*background: white;*/
 }
 #background-image {
   background: url(images/pexels-photo-242236.jpeg) no-repeat center center fixed;
