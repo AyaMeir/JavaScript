@@ -60,6 +60,14 @@ $(document).ready(function() {
   }
   squaredSum(5, 9);
 
+  var thanks = function(){
+    alert("Thanks for visiting the random webpage.");
+  };
+
+  function random (message) {
+    message();
+  }
+  random(thanks);
 //  var windowHeight = $(window).height();
 //  console.log(windowHeight);
   //$('#background-image').height(windowHeight);
